@@ -81,7 +81,7 @@ COVID APP is a comprehensive web application designed to provide real-time updat
 9. **Run the Project**
    - **Using Eclipse/STS/IntelliJ:**
      - After importing the project, run it as a Spring Boot application.
-     - Navigate to the project directory in Eclipse/STS.
+     - Navigate to the project directory in Eclipse/STS/IntelliJ.
      - Right-click on the project -> Run As -> Spring Boot App.
    - **Using Maven Command Line:**
      - Open a terminal or command prompt window on your computer.
@@ -99,28 +99,34 @@ COVID APP is a comprehensive web application designed to provide real-time updat
 10. **Access the Application**
    - Once the project is running, access the application in your web browser using the following URL:
      ```
-     http://localhost:8081/index
+     http://localhost:8080/index
      ```
 
 ## Screenshots of Project
 
-![alt text](src/main/resources/1.png)
+### 1. Current COVID Status And Weather Info
+<div style="display: flex;">
+    <img src="src/main/resources/1.png" alt="IndexPg 1" style="width: 48%; margin: 0% 1.5% 1%;">
+    <img src="src/main/resources/2.png" alt="IndexPg 2" style="width: 48%; margin: 0% 1.5% 1%;">
+</div>
 
-![alt text](src/main/resources/2.png)
+### 2. Vaccination Slot Availability And Covid News
+<div style="display: flex;">
+    <img src="src/main/resources/3.png" alt="vaccineSlots 1" style="width: 48%; margin: 0% 1.5% 1%;">
+    <img src="src/main/resources/4.png" alt="vaccineSlots 2" style="width: 48%; margin: 0% 1.5% 1%;">
+</div>
 
-![alt text](src/main/resources/3.png)
+### 3. Register Email Address for Notifications
+<div style="display: flex;">
+    <img src="src/main/resources/5.png" alt="emailReg 1" style="width: 48%; margin: 0% 1.5% 1%;">
+    <img src="src/main/resources/6.png" alt="emailReg 2" style="width: 48%; margin: 0% 1.5% 1%;">
+</div>
 
-![alt text](src/main/resources/4.png)
-
-![alt text](src/main/resources/5.png)
-
-![alt text](src/main/resources/6.png)
-
-![alt text](src/main/resources/7.png)
-
-![alt text](src/main/resources/8.png)
-
-![alt text](src/main/resources/9.png)
+### 4. Email Notification
+<div style="display: flex;">
+    <img src="src/main/resources/7.png" alt="email 1" style="width: 48%; margin: 0% 1.5% 1%;">
+    <img src="src/main/resources/8.png" alt="email 2" style="width: 48%; margin: 0% 1.5% 1%;">
+</div>
 
 
 ### License
